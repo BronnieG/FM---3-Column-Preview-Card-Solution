@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+  .GridRow
+  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Sedans
+  {
+    border-radius: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Luxury
+  {
+    border-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}

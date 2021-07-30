@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+:root 
+{
+  --main-Color-Orange: hsl(31, 77%, 52%);
+  --main-Color-Cyan: hsl(184, 100%, 22%);
+  --main-Color-DarkCyan: hsl(179, 100%, 13%);
+  --Trans-White:hsla(0, 0%, 100%, 0.75); 
+  /* (paragraphs)*/
+  --Light-Grey: hsl(0, 0%, 95%) 
+  /* (background, headings, buttons)*/
+}
+
+html 
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: "Lexend+Deca", sans-serif;
+  font-weight: 400;
+}
+
+body
+{
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400; 
+  color: var(--Trans-White);
+}
+
+body h1
+{
+  font-family: "Big Shoulders Display",sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  text-transform: uppercase; 
+  letter-spacing: 1.5px;
+  color: var(--Light-Grey);
+}
+
+.GridRow
+{
+  display: block;
+  padding: 16px;
+}
+
+.Sedans
+{
+  background-color: var(--main-Color-Orange);
+  padding: 45px;
+  border-radius: 15px 15px 0 0;
+}
+
+.SUVS
+{
+  background-color: var(--main-Color-Cyan);
+  padding: 45px;
+}
+
+.Luxury
+{
+  background-color: var(--main-Color-DarkCyan); 
+  padding: 45px; 
+  border-radius:  0 0 15px 15px;
+}
+
+button
+{
+  background-color: var(--Light-Grey);
+  border-radius: 30px;
+  border: none;
+  padding: 10px 25px;
+}
+
+button:hover
+{
+  cursor: pointer;
+  background-color: rgba(205, 199, 190, 0);
+  border: 2px solid;
+  border-color: var(--Light-Grey);
+  color: var(--Light-Grey);
+}
+
+.buttonOrange
+{
+  color: var(--main-Color-Orange);
+}
+
+.buttonCyan
+{
+  color: var(--main-Color-Cyan);
+}
+
+.buttonDarkCyan
+{
+  color: var(--main-Color-DarkCyan);
+}
