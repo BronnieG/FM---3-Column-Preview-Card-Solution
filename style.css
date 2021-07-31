@@ -30,7 +30,7 @@ body
   color: var(--Trans-White);
 }
 
-body h1
+body h2
 {
   font-family: "Big Shoulders Display",sans-serif;
   font-weight: 500;
@@ -70,7 +70,7 @@ button
 {
   background-color: var(--Light-Grey);
   border-radius: 30px;
-  border: none;
+  border: 2px solid var(--Light-Grey);
   padding: 10px 25px;
 }
 
